@@ -65,8 +65,8 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ disk_perc, "[HDD %s%%] ", "/mnt/hdd/"},
-        { disk_perc, "[Root Part %s%%] ", "/"},
+	{ disk_free, "[HDD %s] ", "/mnt/hdd/"},
+        { disk_free, "[Root Part %s] ", "/"},
         { netspeed_tx, "[NetSend %sB/s] ", "enp9s0"},
         { netspeed_rx, "[NetRec %sB/s] ", "enp9s0"},
         { run_command, "[GPU %s] ", "bash ~/misc-scripts/gpu-util.sh"},
